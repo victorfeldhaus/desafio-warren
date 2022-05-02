@@ -100,3 +100,14 @@ Para rodar o desafio utilize o seguinte código.
   node desafio03.js
 ```
 
+## Autor
+ Feito por Victor Mafra Feldhaus
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![gmail](https://img.shields.io/badge/my_gmail-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherinempeterson.com/)
+[![instagram](https://img.shields.io/badge/instagram-1DA1F2?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/)
+
+
+
+
+
