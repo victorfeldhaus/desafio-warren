@@ -1,9 +1,9 @@
-let n = 10;
-let v = [2, 3, 4];
+let numberSum = 10;
+let arrInitial = [2, 3, 4];
 
 
 results = [];
-addAndVerify([],v); // realiza o teste
+addAndVerify([], arrInitial); // realiza o teste
 
 
 function sum(nums) {
@@ -14,13 +14,13 @@ function addAndVerify(arr, nums) {
   for(var i = 0; i < nums.length;i++){ // for() faz cada opção ser possível
     const newArr = arr.map(r => r)
         newArr.push(nums[i])  
-    if(sum(newArr) === n) { // verificação
+    if(sum(newArr) === numberSum) { // verificação
         results.push(newArr); 
     }
-    if(sum(newArr) > n){
+    if(sum(newArr) > numberSum){
       break;
     }else{
-      addAndVerify(newArr,v); // ele se chama novamente até testar todas as possibilidades
+      addAndVerify(newArr, arrInitial); // ele se chama novamente até testar todas as possibilidades
     }
   }
 }
@@ -33,7 +33,7 @@ results = results.filter((prev, curr) => {
 
 results = results.sort()
 
-console.log(n)
+console.log(numberSum)
 console.log(results[results.length - 1])
 console.log(results[results.length - 2])
 
