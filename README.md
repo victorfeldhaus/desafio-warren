@@ -13,9 +13,14 @@ Este repositório contém os desafios feitos pela proway para a empresa Warren.
 
 + JavaScript
 + NodeJS
++ IDE VS Code
 
 
 ## Rodando localmente
+
+Baixar Nodejs
+
+https://nodejs.org/en/
 
 Clone o projeto
 
