@@ -3,7 +3,7 @@ let arrInitial = [2, 3, 4];
 
 
 results = [];
-addAndVerify([], arrInitial); // realiza o teste
+addAndVerify([], arrInitial); 
 
 
 function sum(nums) {
@@ -11,16 +11,16 @@ function sum(nums) {
 }
 
 function addAndVerify(arr, nums) {
-  for(var i = 0; i < nums.length;i++){ // for() faz cada opção ser possível
+  for(var i = 0; i < nums.length;i++){ 
     const newArr = arr.map(r => r)
         newArr.push(nums[i])  
-    if(sum(newArr) === numberSum) { // verificação
+    if(sum(newArr) === numberSum) { 
         results.push(newArr); 
     }
     if(sum(newArr) > numberSum){
       break;
     }else{
-      addAndVerify(newArr, arrInitial); // ele se chama novamente até testar todas as possibilidades
+      addAndVerify(newArr, arrInitial); 
     }
   }
 }
